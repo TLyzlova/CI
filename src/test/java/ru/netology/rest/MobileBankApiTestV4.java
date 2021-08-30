@@ -18,7 +18,7 @@ class MobileBankApiTestV4 {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body(matchesJsonSchemaInClasspath("accounts.schema.jar"))
+                .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
         ;
     }
 }

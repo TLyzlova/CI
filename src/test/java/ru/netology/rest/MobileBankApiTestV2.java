@@ -1,10 +1,9 @@
 package ru.netology.rest;
 
-import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
+import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
-import static javax.swing.text.DefaultStyledDocument.ElementSpec.ContentType;
 
 class MobileBankApiTestV2 {
     @Test
